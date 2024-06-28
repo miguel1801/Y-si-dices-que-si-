@@ -36,7 +36,7 @@
             margin: 10px;
             padding: 10px 20px;
             font-size: 18px;
-            color: #fff;
+            color: #000000;
             background-color: #4CAF50;
             border: none;
             border-radius: 5px;
@@ -59,14 +59,26 @@
             margin-top: 30px;
             max-width: 100%;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.);
             text-align: center;
             
 
         }
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url();
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+           
+        }
+
     </style>
     <script>
-        function AccionParaCuandoElDigaQueSi(){
+        function AccionParaCuandoElDigaQueSi() {
             alert("¡¡ Ahora ya somos novios!!")
         }
 
@@ -96,7 +108,7 @@
     <button id="btnNo" onmouseover="mueveElBoton()">NO</button>
 
     <div>
-        <img src="" alt="" width="300" below="100">
+        <img src="08b777c3cd1b4b245fe91aed8cd15140.png" alt="" width="300" below="100">
     </div>
 
 </div>
@@ -105,7 +117,7 @@
     <script>
 
         function accionarParaCuandoElDigaQueSi(){
-            const respuesta = confirm(" ¿Estas seguro de querer ser mi novio? ");
+            const respuesta = confirm("ALERTA ¿Estas seguro de querer ser mi novio? ");
             if (respuesta){
                 // Redireccionar a la nueva pagina si respinde "SI"
                 window.location = "opcionsi.html";
